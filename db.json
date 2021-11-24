@@ -1,0 +1,55 @@
+{
+    "work-rates": [
+      {
+        "id": 1,
+        "work_name": "ถูบ้าน",
+        "rate": 150,
+        "frequency": 15
+      },
+      {
+        "id": 2,
+        "work_name": "ล้างตู้เย็น",
+        "rate": 200,
+        "frequency": 4
+      },
+      {
+        "id": 3,
+        "work_name": "ห้องน้ำ",
+        "rate": 200,
+        "frequency": 4
+      },
+      {
+        "id": 4,
+        "work_name": "ระเบียง",
+        "rate": 100,
+        "frequency": 4
+      },
+      {
+        "id": 5,
+        "work_name": "ครัว",
+        "rate": 50,
+        "frequency": 4
+      },
+      {
+        "id": 6,
+        "work_name": "โต๊ะทำงาน",
+        "rate": 50,
+        "frequency": 15
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      },
+      {
+        "id": 2,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
