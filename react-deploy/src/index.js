@@ -1,14 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore  } from 'redux';
+import { createStore, combineReducers, applyMiddleware } from 'redux';
 import { Provider } from 'react-redux';
+import createSagaMiddleware from 'redux-saga';
 import workRateReducer from './reducers/work-rate';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { watcherSaga } from './saga/rootSaga';
 
-const store = createStore(workRateReducer);
+const reducer = combineReducers({
+  workRate: workRateReducer,
+});
+const sagaMiddleware = createSagaMiddleware();
+const middleware = [sagaMiddleware];
+
+const store = createStore(reducer, {}, applyMiddleware(...middleware));
+sagaMiddleware.run(watcherSaga);
 
 ReactDOM.render(
   <React.StrictMode>

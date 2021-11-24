@@ -1,15 +1,23 @@
 import React, { useState, useEffect } from 'react';
-import ListGroup from 'react-bootstrap/ListGroup';
-import Badge from 'react-bootstrap/Badge';
+import { useDispatch, useSelector } from 'react-redux';
+import { ListGroup, Button, Badge } from 'react-bootstrap';
+import { getWorkRates, setSumWorkRates } from '../../reducers/work-rate';
 
 export default function WorkRateList () {
-  const [workRates, setWorkRates] = useState([]);
+  const dispatch = useDispatch(getWorkRates())
 
   useEffect(() => {
-    fetch('https://my-json-server.typicode.com/habilit/income-payment/work-rates')
-      .then(res => res.json())
-      .then(data => setWorkRates(data))
-  }, [])
+    dispatch(getWorkRates());
+  }, [dispatch]);
+
+  const workRates = useSelector((state) => state.workRate.workRates);
+  const summary = useSelector((state) => state.workRate.summary);
+  console.log('workRates', workRates);
+
+  const addSumRate = (price) => {
+    console.log('price' , price);
+    dispatch(setSumWorkRates(price));
+  }
 
   const renderWorkRateList = () => {
     console.log('workRates ', workRates);
@@ -23,10 +31,10 @@ export default function WorkRateList () {
           <div className="fw-bold">{workRate.work_name}</div>
           {workRate.rate}
           <Badge variant="primary" pill>14</Badge>
+          <Button onClick={()=> addSumRate(workRate.rate)} variant="outline-primary">ADD</Button>
         </div>
       </ListGroup.Item>);
     })
-
   }
 
 
