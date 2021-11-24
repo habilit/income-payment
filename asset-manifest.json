@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/income-payment/static/css/main.cf919fdb.chunk.css",
-    "main.js": "/income-payment/static/js/main.697ffb26.chunk.js",
-    "main.js.map": "/income-payment/static/js/main.697ffb26.chunk.js.map",
-    "runtime-main.js": "/income-payment/static/js/runtime-main.47b3f5f7.js",
-    "runtime-main.js.map": "/income-payment/static/js/runtime-main.47b3f5f7.js.map",
-    "static/js/2.a02e25ea.chunk.js": "/income-payment/static/js/2.a02e25ea.chunk.js",
-    "static/js/2.a02e25ea.chunk.js.map": "/income-payment/static/js/2.a02e25ea.chunk.js.map",
-    "static/js/3.c15dec2c.chunk.js": "/income-payment/static/js/3.c15dec2c.chunk.js",
-    "static/js/3.c15dec2c.chunk.js.map": "/income-payment/static/js/3.c15dec2c.chunk.js.map",
+    "main.css": "/income-payment/static/css/main.ad66b2c9.chunk.css",
+    "main.js": "/income-payment/static/js/main.1e949673.chunk.js",
+    "main.js.map": "/income-payment/static/js/main.1e949673.chunk.js.map",
+    "runtime-main.js": "/income-payment/static/js/runtime-main.5b73cbc9.js",
+    "runtime-main.js.map": "/income-payment/static/js/runtime-main.5b73cbc9.js.map",
+    "static/css/2.383c0125.chunk.css": "/income-payment/static/css/2.383c0125.chunk.css",
+    "static/js/2.6e2eb8b9.chunk.js": "/income-payment/static/js/2.6e2eb8b9.chunk.js",
+    "static/js/2.6e2eb8b9.chunk.js.map": "/income-payment/static/js/2.6e2eb8b9.chunk.js.map",
+    "static/js/3.a1598cef.chunk.js": "/income-payment/static/js/3.a1598cef.chunk.js",
+    "static/js/3.a1598cef.chunk.js.map": "/income-payment/static/js/3.a1598cef.chunk.js.map",
     "index.html": "/income-payment/index.html",
-    "static/css/main.cf919fdb.chunk.css.map": "/income-payment/static/css/main.cf919fdb.chunk.css.map",
-    "static/js/2.a02e25ea.chunk.js.LICENSE.txt": "/income-payment/static/js/2.a02e25ea.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/income-payment/static/media/logo.6ce24c58.svg"
+    "static/css/2.383c0125.chunk.css.map": "/income-payment/static/css/2.383c0125.chunk.css.map",
+    "static/css/main.ad66b2c9.chunk.css.map": "/income-payment/static/css/main.ad66b2c9.chunk.css.map",
+    "static/js/2.6e2eb8b9.chunk.js.LICENSE.txt": "/income-payment/static/js/2.6e2eb8b9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.47b3f5f7.js",
-    "static/js/2.a02e25ea.chunk.js",
-    "static/css/main.cf919fdb.chunk.css",
-    "static/js/main.697ffb26.chunk.js"
+    "static/js/runtime-main.5b73cbc9.js",
+    "static/css/2.383c0125.chunk.css",
+    "static/js/2.6e2eb8b9.chunk.js",
+    "static/css/main.ad66b2c9.chunk.css",
+    "static/js/main.1e949673.chunk.js"
   ]
 }
