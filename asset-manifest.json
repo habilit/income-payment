@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/income-payment/static/css/main.cf919fdb.chunk.css",
+    "main.js": "/income-payment/static/js/main.697ffb26.chunk.js",
+    "main.js.map": "/income-payment/static/js/main.697ffb26.chunk.js.map",
+    "runtime-main.js": "/income-payment/static/js/runtime-main.47b3f5f7.js",
+    "runtime-main.js.map": "/income-payment/static/js/runtime-main.47b3f5f7.js.map",
+    "static/js/2.a02e25ea.chunk.js": "/income-payment/static/js/2.a02e25ea.chunk.js",
+    "static/js/2.a02e25ea.chunk.js.map": "/income-payment/static/js/2.a02e25ea.chunk.js.map",
+    "static/js/3.c15dec2c.chunk.js": "/income-payment/static/js/3.c15dec2c.chunk.js",
+    "static/js/3.c15dec2c.chunk.js.map": "/income-payment/static/js/3.c15dec2c.chunk.js.map",
+    "index.html": "/income-payment/index.html",
+    "static/css/main.cf919fdb.chunk.css.map": "/income-payment/static/css/main.cf919fdb.chunk.css.map",
+    "static/js/2.a02e25ea.chunk.js.LICENSE.txt": "/income-payment/static/js/2.a02e25ea.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/income-payment/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.47b3f5f7.js",
+    "static/js/2.a02e25ea.chunk.js",
+    "static/css/main.cf919fdb.chunk.css",
+    "static/js/main.697ffb26.chunk.js"
+  ]
+}
