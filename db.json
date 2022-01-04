@@ -34,7 +34,13 @@
         "id": 6,
         "work_name": "โต๊ะทำงาน",
         "rate": 50,
-        "frequency": 15
+        "frequency": 2
+      },
+      {
+        "id": 7,
+        "work_name": "ซักผ้า",
+        "rate": 40,
+        "frequency": 1
       }
     ],
     "comments": [
